@@ -1,0 +1,16 @@
+{
+  "auth": {
+    "photodemobeta2d197e235": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  },
+  "storage": {
+    "demobuckets": {
+      "service": "S3",
+      "providerPlugin": "awscloudformation"
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-photodemobeta2-dev-183539-authRole",
+      "UnauthRoleArn": "arn:aws:iam::840957695116:role/amplify-photodemobeta2-dev-183539-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::840957695116:role/amplify-photodemobeta2-dev-183539-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-photodemobeta2-dev-183539-deployment",
+      "UnauthRoleName": "amplify-photodemobeta2-dev-183539-unauthRole",
+      "StackName": "amplify-photodemobeta2-dev-183539",
+      "StackId": "arn:aws:cloudformation:us-east-2:840957695116:stack/amplify-photodemobeta2-dev-183539/3ba85b10-edfd-11eb-84cd-0a9519bc4280",
+      "AmplifyAppId": "d26wjwzvho8b50"
+    }
+  },
+  "auth": {
+    "photodemobeta2d197e235": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-photodemobeta2-dev-183539-deployment/amplify-cfn-templates/auth/photodemobeta2d197e235-cloudformation-template.yml",
+        "logicalId": "authphotodemobeta2d197e235"
+      },
+      "lastPushTimeStamp": "2021-07-26T10:43:20.962Z",
+      "output": {
+        "UserPoolId": "us-east-2_RZ0Vx5twn",
+        "AppClientIDWeb": "7inaf3b3tm45huceu0j5hjaa3o",
+        "AppClientID": "2mlm2atr84ecpi0cjho4ff8i40",
+        "IdentityPoolId": "us-east-2:d06def0b-96f9-4620-bc3a-613ee49ed30f",
+        "UserPoolArn": "arn:aws:cognito-idp:us-east-2:840957695116:userpool/us-east-2_RZ0Vx5twn",
+        "IdentityPoolName": "photodemobeta2d197e235_identitypool_d197e235__dev",
+        "UserPoolName": "photodemobeta2d197e235_userpool_d197e235"
+      },
+      "lastPushDirHash": "boeBvdYcyFTW1uHNSxZrAnH4BnY="
+    }
+  },
+  "storage": {
+    "demobuckets": {
+      "service": "S3",
+      "providerPlugin": "awscloudformation",
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-photodemobeta2-dev-183539-deployment/amplify-cfn-templates/storage/s3-cloudformation-template.json",
+        "logicalId": "storagedemobuckets"
+      },
+      "lastPushTimeStamp": "2021-07-26T10:43:20.962Z",
+      "output": {
+        "BucketName": "photodemobeta241dbb56c5f7b4bf89ec609f548f61190183539-dev",
+        "Region": "us-east-2"
+      },
+      "lastPushDirHash": "jZH2RrYXl2qqMOqdymPkO2ARTWA="
+    }
+  }
+}
